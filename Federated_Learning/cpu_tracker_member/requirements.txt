@@ -1,0 +1,4 @@
+syftbox>=0.1.5
+psutil>=6.1.0
+diffprivlib>=0.6.5
+py-fast-rsync==0.1.0
