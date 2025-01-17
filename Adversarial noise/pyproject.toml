@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "adversarial-attack"
+version = "0.1.0"
+description = "Adversarial attack implementation"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+torch = "2.2.2"
+torchaudio = "2.2.2"
+torchdata = "0.7.1"
+torchtext = "0.17.2"
+torchvision = "0.17.2"
+Pillow = "10.4.0"
+numpy = "1.24.4"
+tqdm = "4.66.4"
+matplotlib = "3.9.0"
+matplotlib-inline = "0.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
